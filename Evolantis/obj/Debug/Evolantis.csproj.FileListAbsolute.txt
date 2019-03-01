@@ -1,0 +1,13 @@
+\\evo101-pc\DEVS\Project Library\Evolantis\Evolantis\bin\Debug\Evolantis.dll
+\\evo101-pc\DEVS\Project Library\Evolantis\Evolantis\bin\Debug\Evolantis.pdb
+\\evo101-pc\DEVS\Project Library\Evolantis\Evolantis\obj\Debug\Evolantis.dll
+\\evo101-pc\DEVS\Project Library\Evolantis\Evolantis\obj\Debug\Evolantis.pdb
+Z:\ASP.NET WEBSITE\LIBRARY\Evolantis\Evolantis\bin\Debug\Evolantis.dll
+Z:\ASP.NET WEBSITE\LIBRARY\Evolantis\Evolantis\bin\Debug\Evolantis.pdb
+Z:\ASP.NET WEBSITE\LIBRARY\Evolantis\Evolantis\obj\Debug\Evolantis.dll
+Z:\ASP.NET WEBSITE\LIBRARY\Evolantis\Evolantis\obj\Debug\Evolantis.pdb
+\\Evo101-pc\devs\Project Library\Evolantis_Release\Evolantis\bin\Debug\Evolantis.dll
+\\Evo101-pc\devs\Project Library\Evolantis_Release\Evolantis\bin\Debug\Evolantis.pdb
+\\Evo101-pc\devs\Project Library\Evolantis_Release\Evolantis\obj\Debug\Evolantis.dll
+\\Evo101-pc\devs\Project Library\Evolantis_Release\Evolantis\obj\Debug\Evolantis.pdb
+\\Evo101-pc\devs\Project Library\Evolantis_Release\Evolantis\obj\Debug\Evolantis.csprojResolveAssemblyReference.cache
