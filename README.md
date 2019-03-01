@@ -1,5 +1,3 @@
-# Database Access
-
 Connection String
 <pre>
 public class Connection : IDatabaseSettings
