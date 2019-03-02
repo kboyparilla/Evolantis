@@ -17,7 +17,7 @@ namespace Evolantis.Lib
 
         static Cipher()
         {
-            passPhrase = "kboyparilla";
+            passPhrase = "DOTNETDEVS";
             saltValue = "LLC";
             hashAlgorithm = "SHA1";
             passwordIterations = 2;
