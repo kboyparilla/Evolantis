@@ -3,6 +3,7 @@ using System.Collections;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
+using Evo.Security;
 
 namespace Evolantis.Lib
 {
@@ -17,12 +18,12 @@ namespace Evolantis.Lib
 
         static Cipher()
         {
-            passPhrase = "DOTNETDEVS";
-            saltValue = "LLC";
-            hashAlgorithm = "SHA1";
-            passwordIterations = 2;
-            initVector = "@1B2c3D4e5F6g7H8";
-            keySize = 128;
+            passPhrase          = Crypto.Phrase;
+            saltValue           = Crypto.Salt;
+            hashAlgorithm       = Crypto.Hash;
+            passwordIterations  = Crypto.Iterations;
+            initVector          = Crypto.Vector;
+            keySize             = Crypto.KeySize;
         }
 
         public static string EncryptBase64(string str)
