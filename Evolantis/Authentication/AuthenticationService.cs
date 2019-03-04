@@ -7,7 +7,7 @@ namespace Evolantis.Authentication
 {
     public class AuthenticationService
     {
-        public static void Signin(UserIdentity user, bool createPersistentCookie)
+        public static void Signin(UserIdentity user, bool createPersistentCookie = false)
         {
             //UserData is stored as json
             string userData = JsonConvert.SerializeObject(user);
