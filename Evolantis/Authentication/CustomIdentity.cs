@@ -51,7 +51,7 @@ namespace Evolantis.Authentication
             get { return user.LastName; }
         }
 
-        public int Role
+        public string Role
         {
             get { return user.Role; }
         }
