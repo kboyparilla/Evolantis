@@ -21,6 +21,12 @@
             return _custom.Role;
         }
 
+        public static string Email()
+        {
+            _custom = new CustomIdentity();
+            return _custom.Email;
+        }
+        
         public static string Username()
         {
             _custom = new CustomIdentity();
