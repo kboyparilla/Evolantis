@@ -10,14 +10,9 @@
             return _custom.ID;
         }
 
-        public static int Role()
+        public static string Role()
         {
             _custom = new CustomIdentity();
-            if (!_custom.IsAuthenticated)
-            {
-                return 1;
-            }
-
             return _custom.Role;
         }
 
