@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
+using System.ComponentModel;
 
 namespace Evolantis.Authentication
 {
@@ -12,21 +13,7 @@ namespace Evolantis.Authentication
             _custom = new CustomIdentity();
             return _custom.ID;
         }
-
-        public static string Role()
-        {
-            _custom = new CustomIdentity();
-            return _custom.Role;
-        }
-
-        public static bool Role(string value)
-        {
-            _custom = new CustomIdentity();
-            if (_custom.Role == value)
-                return true;
-            return false;
-        }
-
+           
         public static string Email()
         {
             _custom = new CustomIdentity();
@@ -69,10 +56,31 @@ namespace Evolantis.Authentication
             return _custom.UserAgent;
         }
 
-        public static List<T> ExtendedListObject<T>()
+        public static string ExtendedObject()
         {
             _custom = new CustomIdentity();
-            return JsonConvert.DeserializeObject<List<T>>(_custom.ExtendedObject);
+            return _custom.ExtendedObject;
+        }
+
+        public static bool IsAuthenticated()
+        {
+            _custom = new CustomIdentity();
+            return _custom.IsAuthenticated;
+        }
+
+        public static T Role<T>()
+        {
+            _custom = new CustomIdentity();
+            return (T)TypeDescriptor.GetConverter(typeof(T)).ConvertTo((object)_custom.Role, typeof(T));
+        }
+
+        public static bool Role<T>(T value)
+        {
+            _custom = new CustomIdentity();
+
+            if (_custom.Role == (string)TypeDescriptor.GetConverter(typeof(T)).ConvertTo((object)value, typeof(T)))
+                return true;
+            return false;
         }
 
         public static T ExtendedObject<T>()
@@ -81,16 +89,5 @@ namespace Evolantis.Authentication
             return JsonConvert.DeserializeObject<T>(_custom.ExtendedObject);
         }
 
-        public static string ExtendedObject()
-        {
-            _custom = new CustomIdentity();
-            return _custom.ExtendedObject;
-        }
-
-        public static bool isAuthenticated()
-        {
-            _custom = new CustomIdentity();
-            return _custom.IsAuthenticated;
-        }
     }
 }

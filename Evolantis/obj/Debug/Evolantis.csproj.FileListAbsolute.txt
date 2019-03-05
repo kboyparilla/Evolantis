@@ -16,3 +16,6 @@ Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\obj\Debug\Evolantis.
 Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\bin\Debug\Evolantis.dll
 Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\bin\Debug\Evolantis.pdb
 Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\bin\Debug\Evo.dll
+Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\obj\Debug\Evolantis.csprojAssemblyReference.cache
+Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\obj\Debug\Evolantis.csproj.CoreCompileInputs.cache
+Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\obj\Debug\Evolantis.csproj.CopyComplete
