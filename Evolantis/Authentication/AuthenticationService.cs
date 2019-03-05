@@ -16,7 +16,7 @@ namespace Evolantis.Authentication
                 FormsAuthenticationTicket(1, //version
                                           user.ID.ToString(), // user name
                                           DateTime.Now,             //creation
-                                          DateTime.Now.AddMinutes(120), //Expiration
+                                          DateTime.Now.AddMinutes(FormsAuthentication.Timeout.TotalMinutes), //Expiration
                                           createPersistentCookie, userData); //storing the json data
 
             string encTicket = FormsAuthentication.Encrypt(authTicket);
