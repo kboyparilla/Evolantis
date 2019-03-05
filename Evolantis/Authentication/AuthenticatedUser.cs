@@ -78,7 +78,7 @@ namespace Evolantis.Authentication
         {
             _custom = new CustomIdentity();
 
-            if (_custom.Role == (string)TypeDescriptor.GetConverter(typeof(T)).ConvertTo((object)value, typeof(T)))
+            if (_custom.Role == TypeDescriptor.GetConverter(typeof(T)).ConvertTo((object)value, typeof(T)).ToString())
                 return true;
             return false;
         }
