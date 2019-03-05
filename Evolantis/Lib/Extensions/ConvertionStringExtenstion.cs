@@ -123,23 +123,23 @@ namespace Evolantis.Lib.Extensions
 
         public static string ToEmpty(this string value)
         {          
-            if (!string.IsNullOrWhiteSpace(value))
+            if (!string.IsNullOrWhiteSpace(value) && value.EmptyToZero<int>() != 0)
                 return value;              
             return "";         
         }
 
         public static string ToEmpty(this string value, string text)
         {
-            if (!string.IsNullOrWhiteSpace(value))
+            if (!string.IsNullOrWhiteSpace(value) && value.EmptyToZero<int>() != 0)
                 return value;
             return text;
         }
 
-        public static string ToZero(this string value)
+        public static T EmptyToZero<T>(this string nummber)
         {
-            if (!string.IsNullOrWhiteSpace(value))
-                return value;
-            return "0";
+            if (!string.IsNullOrWhiteSpace(nummber) && nummber.isNumber())
+                return (T)TypeDescriptor.GetConverter(typeof(T)).ConvertTo((object)nummber, typeof(T));
+            return (T)TypeDescriptor.GetConverter(typeof(T)).ConvertTo((object)(0), typeof(T));
         }
     }
 }

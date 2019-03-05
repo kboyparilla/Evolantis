@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.ComponentModel;
+using System.Security;
+using System.Web;
 
 namespace Evolantis.Authentication
 {
@@ -78,7 +80,7 @@ namespace Evolantis.Authentication
         {
             _custom = new CustomIdentity();
 
-            if (_custom.Role == TypeDescriptor.GetConverter(typeof(T)).ConvertTo((object)value, typeof(T)).ToString())
+            if (HttpContext.Current.User.IsInRole(TypeDescriptor.GetConverter(typeof(T)).ConvertTo((object)value, typeof(T)).ToString()))
                 return true;
             return false;
         }
