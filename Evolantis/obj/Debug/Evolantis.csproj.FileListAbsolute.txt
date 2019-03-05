@@ -11,3 +11,8 @@ Z:\ASP.NET WEBSITE\LIBRARY\Evolantis\Evolantis\obj\Debug\Evolantis.pdb
 \\Evo101-pc\devs\Project Library\Evolantis_Release\Evolantis\obj\Debug\Evolantis.dll
 \\Evo101-pc\devs\Project Library\Evolantis_Release\Evolantis\obj\Debug\Evolantis.pdb
 \\Evo101-pc\devs\Project Library\Evolantis_Release\Evolantis\obj\Debug\Evolantis.csprojResolveAssemblyReference.cache
+Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\obj\Debug\Evolantis.dll
+Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\obj\Debug\Evolantis.pdb
+Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\bin\Debug\Evolantis.dll
+Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\bin\Debug\Evolantis.pdb
+Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\bin\Debug\Evo.dll

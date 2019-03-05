@@ -1,4 +1,7 @@
-﻿namespace Evolantis.Authentication
+﻿using System.Collections.Generic;
+using Newtonsoft.Json;
+
+namespace Evolantis.Authentication
 {
     public class AuthenticatedUser
     {
@@ -14,6 +17,14 @@
         {
             _custom = new CustomIdentity();
             return _custom.Role;
+        }
+
+        public static bool Role(string value)
+        {
+            _custom = new CustomIdentity();
+            if (_custom.Role == value)
+                return true;
+            return false;
         }
 
         public static string Email()
@@ -58,10 +69,22 @@
             return _custom.UserAgent;
         }
 
-        public static string Channel()
+        public static List<T> ExtendedListObject<T>()
         {
             _custom = new CustomIdentity();
-            return _custom.Channel;
+            return JsonConvert.DeserializeObject<List<T>>(_custom.ExtendedObject);
+        }
+
+        public static T ExtendedObject<T>()
+        {
+            _custom = new CustomIdentity();
+            return JsonConvert.DeserializeObject<T>(_custom.ExtendedObject);
+        }
+
+        public static string ExtendedObject()
+        {
+            _custom = new CustomIdentity();
+            return _custom.ExtendedObject;
         }
 
         public static bool isAuthenticated()

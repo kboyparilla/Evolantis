@@ -76,9 +76,9 @@ namespace Evolantis.Authentication
             get { return user.UserAgent; }
         }
 
-        public string Channel
+        public string ExtendedObject
         {
-            get { return user.Channel; }
+            get { return user.Extended_Object; }
         }
     }
 }
