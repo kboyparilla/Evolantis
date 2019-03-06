@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System.ComponentModel;
-using System.Security;
 using System.Web;
 
 namespace Evolantis.Authentication
@@ -79,7 +77,6 @@ namespace Evolantis.Authentication
         public static bool Role<T>(T value)
         {
             _custom = new CustomIdentity();
-
             if (HttpContext.Current.User.IsInRole(TypeDescriptor.GetConverter(typeof(T)).ConvertTo((object)value, typeof(T)).ToString()))
                 return true;
             return false;
