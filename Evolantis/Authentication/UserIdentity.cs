@@ -13,6 +13,6 @@ namespace Evolantis.Authentication
         public string Type { get; set; }
         public string IP { get; set; }
         public string UserAgent { get; set; }
-        public string Extended_Object { get; set; }
+        public string ExtendedProperties { get; set; }
     }   
 }

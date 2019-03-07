@@ -59,7 +59,7 @@ namespace Evolantis.Authentication
         public static string ExtendedObject()
         {
             _custom = new CustomIdentity();
-            return _custom.ExtendedObject;
+            return _custom.ExtendedProperties;
         }
 
         public static bool IsAuthenticated()
@@ -85,7 +85,7 @@ namespace Evolantis.Authentication
         public static T ExtendedObject<T>()
         {
             _custom = new CustomIdentity();
-            return JsonConvert.DeserializeObject<T>(_custom.ExtendedObject);
+            return JsonConvert.DeserializeObject<T>(_custom.ExtendedProperties);
         }
 
     }
