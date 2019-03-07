@@ -31,9 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Evo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Evo.dll</HintPath>
+    <Reference Include="Evolantis.Security">
+      <HintPath>..\..\CLASS LIBRARIES\Evolantis.Security\bin\Debug\Evolantis.Security.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -99,7 +98,6 @@
     <Folder Include="obj\Release\TempPE\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Evo.dll" />
     <Content Include="bin\Release\Evolantis.dll" />
     <Content Include="bin\Release\Evolantis.pdb" />
     <Content Include="obj\Debug\Evolantis.csproj.FileListAbsolute.txt" />

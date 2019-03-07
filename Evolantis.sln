@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolantis", "Evolantis\Evolantis.csproj", "{0C9E112A-5149-4AAA-B8A3-B317919F5857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolantis.Security", "..\CLASS LIBRARIES\Evolantis.Security\Evolantis.Security.csproj", "{FDECFE4D-9872-4025-9ACB-C0200E288469}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{0C9E112A-5149-4AAA-B8A3-B317919F5857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C9E112A-5149-4AAA-B8A3-B317919F5857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C9E112A-5149-4AAA-B8A3-B317919F5857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDECFE4D-9872-4025-9ACB-C0200E288469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDECFE4D-9872-4025-9ACB-C0200E288469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDECFE4D-9872-4025-9ACB-C0200E288469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDECFE4D-9872-4025-9ACB-C0200E288469}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56699106-066C-4596-8BBD-38F764F60058}
 	EndGlobalSection
 EndGlobal

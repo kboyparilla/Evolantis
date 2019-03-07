@@ -17,3 +17,12 @@ Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\bin\Debug\Evolantis.
 Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\bin\Debug\Evolantis.pdb
 Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\bin\Debug\Evo.dll
 Z:\RICKY'S FILES\asp.net\Evolantis-DatabaseAccess\Evolantis\obj\Debug\Evolantis.csprojResolveAssemblyReference.cache
+E:\PROJECTS\ASP.NET\Evolantis\Evolantis\bin\Debug\Evolantis.dll
+E:\PROJECTS\ASP.NET\Evolantis\Evolantis\bin\Debug\Evolantis.pdb
+E:\PROJECTS\ASP.NET\Evolantis\Evolantis\obj\Debug\Evolantis.csprojAssemblyReference.cache
+E:\PROJECTS\ASP.NET\Evolantis\Evolantis\obj\Debug\Evolantis.csproj.CoreCompileInputs.cache
+E:\PROJECTS\ASP.NET\Evolantis\Evolantis\obj\Debug\Evolantis.csproj.CopyComplete
+E:\PROJECTS\ASP.NET\Evolantis\Evolantis\obj\Debug\Evolantis.dll
+E:\PROJECTS\ASP.NET\Evolantis\Evolantis\obj\Debug\Evolantis.pdb
+E:\PROJECTS\ASP.NET\Evolantis\Evolantis\bin\Debug\Evolantis.Security.dll
+E:\PROJECTS\ASP.NET\Evolantis\Evolantis\bin\Debug\Evolantis.Security.pdb
